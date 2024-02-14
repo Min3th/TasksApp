@@ -1,0 +1,46 @@
+.task-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 500px;
+  height: 40px;
+
+}
+.task-form{
+  flex: 1;
+}
+
+.input-div {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.input-info-div{
+  display: flex;
+  flex-direction: row;
+  width:400px
+}
+
+.task-input{
+  flex: 1;
+  height: 38px;
+  border-radius: 20px 0 0 20px;
+  border: 2px solid wheat;
+}
+
+.button-div{
+  display: flex;
+  flex-direction:row;
+}
+
+.enter-task-button{
+  width: 40px;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  background-color: wheat;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+}

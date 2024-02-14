@@ -1,0 +1,92 @@
+.task-line{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  min-height: 300px;
+  max-height: 660px;
+  padding-top: 10px;
+  border-radius: 25px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px ;
+  border: 1px solid black;
+  box-shadow: 1px 20;
+  background-color: rgb(125, 125, 125);
+  z-index: 5;
+}
+
+
+
+.task-details{
+
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:black;
+  border: 1px solid rgb(132, 132, 132);
+  border-radius: 30px;
+  background-color: rgb(188, 188, 188);
+  font-weight: 300;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.task-delete-button{
+  position:absolute;
+  right: 20px;
+  cursor: pointer;
+  background-color: rgb(114, 112, 112);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+.empty-task{
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding-left: 100px; */
+  height:50px;
+}
+
+.empty-words{
+  flex: 1;
+  font-size: 40px;
+  height: 40px;
+}
+
+.home{
+  width: 698px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:51px;
+  bottom: 55px;
+  height: 900px;
+  background-color: aqua;
+}
+
+.addtask-button{
+  position: fixed;
+  bottom: 45px;
+  right: 290px;
+  font-size: 30px;
+  color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: wheat;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-top: 7px;
+  z-index: 10;
+}

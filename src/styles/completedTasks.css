@@ -1,0 +1,60 @@
+.completed-div{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgrey;
+  height: 50px;
+  width: 698px;
+  border-radius: 50px 50px 0 0;
+}
+
+.completed-button{
+  border: none;
+  flex: 1;
+  background-color: darkgrey;
+  cursor: pointer;
+}
+
+.caret{
+  font-size: 20px;
+}
+
+.complete-text{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+.finished-line{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  min-height: 300px;
+  max-height: 660px;
+  padding-top: 10px;
+  border-radius: 25px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px ;
+  border: 1px solid black;
+  box-shadow: 1px 20;
+  background-color: rgb(125, 125, 125);
+  z-index: 5;
+}
+
+.finished-details {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:black;
+  border: 1px solid rgb(132, 132, 132);
+  border-radius: 30px;
+  background-color: rgb(188, 188, 188);
+  font-weight: 300;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
