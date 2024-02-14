@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TasksApp/static/css/main.b641a787.css",
+    "main.js": "/TasksApp/static/js/main.084693b4.js",
+    "static/media/best_alarm.mp3": "/TasksApp/static/media/best_alarm.f1fdcf162ee92acd2913.mp3",
+    "index.html": "/TasksApp/index.html",
+    "main.b641a787.css.map": "/TasksApp/static/css/main.b641a787.css.map",
+    "main.084693b4.js.map": "/TasksApp/static/js/main.084693b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b641a787.css",
+    "static/js/main.084693b4.js"
+  ]
+}
